@@ -46,7 +46,7 @@ if (contactForm) {
         const submitBtn = contactForm.querySelector('button[type="submit"]');
         submitBtn.disabled = true;
 
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", {
+        emailjs.send("service_hpsfbqh", "loidj5z", {
             name: name,
             email: email,
             number: number,
