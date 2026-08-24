@@ -766,12 +766,37 @@ ul {
         padding: 70px 0;
     }
     .hero {
-        min-height: 90vh;
+        min-height: auto;
+
+        flex-direction: column;
+
+        gap: 30px;
+
+        text-align: center;
+
+        padding: 60px 0;
+    }
+    .hero-image {
+        width: 180px;
+        height: 180px;
     }
     .hero h1 {
         font-size: 48px;
 
         letter-spacing: -2px;
+    }
+    .description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .social-links .example-2 {
+        justify-content: center;
+    }
+    .btn-53 {
+        width: 100% !important;
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .stats {
         grid-template-columns: 1fr;

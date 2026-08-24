@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // form func
 
-emailjs.init("service_hpsfbqh");
+emailjs.init("gwi6eirufmo2K9Sf7");
 
 const contactForm = document.getElementById('contactForm');
 
