@@ -759,45 +759,31 @@ ul {
 
 
 @media (max-width: 700px) {
-
     body {
         padding: 0 20px;
     }
-
     section {
         padding: 70px 0;
     }
-
-
     .hero {
         min-height: 90vh;
     }
-
-
     .hero h1 {
         font-size: 48px;
 
         letter-spacing: -2px;
     }
-
-
     .stats {
         grid-template-columns: 1fr;
 
         gap: 25px;
     }
-
-
     .stat {
         padding: 10px 0;
     }
-
-
     .about h2 {
         font-size: 35px;
     }
-
-
     .education h2,
     .services h2,
     .skills h2,
@@ -806,23 +792,16 @@ ul {
     .brands h2 {
         font-size: 32px;
     }
-
-
     .project-grid {
         grid-template-columns: 1fr;
     }
-
-
     .brand-list {
         grid-template-columns:
             repeat(2, 1fr);
     }
-
-
     .contact h2 {
         font-size: 38px;
     }
-
 }
 .box {
     display: flex;
