@@ -7,7 +7,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from chatbot import get_reply
+from .chatbot import get_reply
 
 # aboutme/ folder (the parent of the "python" folder)
 SITE_DIR = Path(__file__).resolve().parent.parent
@@ -16,17 +16,12 @@ app = FastAPI(title="Aboutme Chatbot API", version="1.0.0")
 
 # Only needed if you open the site from another server (e.g. Live Server).
 # When FastAPI serves the site itself, requests are same-origin and this is unused.
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://localhost:5500",
-        "http://127.0.0.1:5500",
-        "http://localhost:8000",
-        "http://127.0.0.1:8000",
-    ],
-    allow_methods=["GET", "POST"],
-    allow_headers=["Content-Type"],
-)
+allow_origins=[
+    "http://localhost:5500",
+    "http://127.0.0.1:5500",
+    "https://mohammadreza08080-arch.github.io/MRX",
+]
+
 
 
 class ChatRequest(BaseModel):

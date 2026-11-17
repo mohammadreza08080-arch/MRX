@@ -1,6 +1,10 @@
 // Use "/chat" when the page is served by FastAPI (http://127.0.0.1:8000/...).
 // If you open the page with Live Server instead, use "http://127.0.0.1:8000/chat".
-const API_URL = "/chat";
+const API_URL = location.hostname.endsWith("github.io")
+  ? "https://YOUR-SPACE.hf.space/chat"
+  : (location.port === "8000"
+      ? "/chat"
+      : "http://127.0.0.1:8000/chat");
 
 const chat = document.getElementById('chat');
 const scroller = document.getElementById('messages');
