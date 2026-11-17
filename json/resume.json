@@ -1,0 +1,546 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "سلام",
+        "درود",
+        "سلام وقت بخیر",
+        "هی",
+        "خوبی؟",
+        "سلام خوبی؟",
+        "سلام چطوری؟",
+        "صبح بخیر",
+        "عصر بخیر",
+        "باهام صحبت کن",
+        "بیا حرف بزنیم",
+        "میشه باهات صحبت کنم؟",
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good day",
+        "How are you?",
+        "Hello there",
+        "Hi there",
+        "Good morning",
+        "Good evening",
+        "talk to me",
+        "let's talk",
+        "can we chat?"
+      ],
+      "responses": [
+        "سلام! خوش اومدی. چطور می‌تونم درباره مهارت‌ها و خدمات محمدرضا کمکت کنم؟",
+        "Hello! Welcome. How can I help you learn about Mohammadreza's skills and services?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "محمدرضا عباسی کیست؟",
+        "درباره محمدرضا بگو",
+        "خودت را معرفی کن",
+        "صاحب این رزومه کیه؟",
+        "تو کی هستی؟",
+        "تو کیستی؟",
+        "خودت رو معرفی کن",
+        "خودتو معرفی کن",
+        "یه معرفی از خودت بکن",
+        "از خودت بگو",
+        "درباره خودت بگو",
+        "محمدرضا کیه؟",
+        "این رزومه مال کیه؟",
+        "Who is Mohammadreza Abbasi?",
+        "Tell me about Mohammadreza",
+        "Who are you?",
+        "Introduce yourself",
+        "Tell me about yourself",
+        "Who is behind this resume?"
+      ],
+      "responses": [
+        "محمدرضا عباسی در زمینه برنامه‌نویسی Python، هوش مصنوعی و امنیت سایبری فعالیت و یادگیری دارد.",
+        "Mohammadreza Abbasi works and learns in Python programming, artificial intelligence, and cybersecurity."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "skills",
+      "patterns": [
+        "چه مهارت‌هایی داری؟",
+        "مهارت‌های محمدرضا چیست؟",
+        "با چه زبان‌هایی برنامه‌نویسی می‌کنی؟",
+        "چه تکنولوژی‌هایی بلدی؟",
+        "چه مهارتایی داری؟",
+        "مهارتات چیه؟",
+        "مهارت‌هات رو بگو",
+        "تخصصت چیه؟",
+        "در چه زمینه‌هایی تخصص داری؟",
+        "حوزه تخصصی تو چیه؟",
+        "چه زبان برنامه‌نویسی بلدی؟",
+        "What are your skills?",
+        "Which programming languages do you know?",
+        "What technologies does Mohammadreza work with?",
+        "List your skills",
+        "What areas of expertise do you have?",
+        "what areas of expertise do you have",
+        "What is your tech stack?",
+        "What are you good at?",
+        "What technologies do you know?"
+      ],
+      "responses": [
+        "مهارت‌های اعلام‌شده شامل Python، Machine Learning، Deep Learning، HTML، CSS، JavaScript، Linux و Network Security هستند. سطح تسلط هر مهارت مشخص نشده است.",
+        "The listed skills are Python, Machine Learning, Deep Learning, HTML, CSS, JavaScript, Linux, and Network Security. Proficiency levels have not been specified."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "آیا Python بلدی؟",
+        "با پایتون کار می‌کنی؟",
+        "مهارتت در پایتون چیست؟",
+        "پایتون بلدی؟",
+        "پایتون کار می‌کنی؟",
+        "سطح پایتونت چقدره؟",
+        "پایتونت چطوره؟",
+        "برنامه‌نویس پایتون هستی؟",
+        "Do you know Python?",
+        "Do you work with Python?",
+        "How good are you at Python?",
+        "Are you a Python developer?",
+        "What is your Python level?",
+        "Python experience?"
+      ],
+      "responses": [
+        "Python یکی از مهارت‌های اعلام‌شده محمدرضا است. سطح دقیق تسلط او در اطلاعات فعلی مشخص نشده است.",
+        "Python is one of Mohammadreza's listed skills. His exact proficiency level has not been specified."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "در زمینه هوش مصنوعی چه کار می‌کنی؟",
+        "مهارت‌های AI تو چیست؟",
+        "هوش مصنوعی بلدی؟",
+        "با هوش مصنوعی کار می‌کنی؟",
+        "سابقه‌ات در هوش مصنوعی چیه؟",
+        "در حوزه AI فعالیت داری؟",
+        "یادگیری عمیق بلدی؟",
+        "دیپ لرنینگ کار می‌کنی؟",
+        "Do you work in AI?",
+        "What is your artificial intelligence background?",
+        "Do you know AI?",
+        "What AI experience do you have?",
+        "Do you work with deep learning?",
+        "What is your AI experience?"
+      ],
+      "responses": [
+        "زمینه‌های مرتبط با هوش مصنوعی که در اطلاعات محمدرضا ثبت شده‌اند شامل Machine Learning، Deep Learning، LLM و NLP هستند.",
+        "Mohammadreza's listed AI-related areas include Machine Learning, Deep Learning, LLMs, and NLP."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": [
+        "در امنیت سایبری فعالیت داری؟",
+        "امنیت شبکه بلدی؟",
+        "در زمینه cybersecurity چه مهارتی داری؟",
+        "امنیت سایبری بلدی؟",
+        "با امنیت شبکه کار می‌کنی؟",
+        "سابقه‌ات در امنیت سایبری چیه؟",
+        "سایبر سکیوریتی بلدی؟",
+        "در حوزه امنیت چه کار کردی؟",
+        "Do you work in cybersecurity?",
+        "What cybersecurity skills do you have?",
+        "Do you know network security?",
+        "Do you have security experience?",
+        "Tell me about your cybersecurity background",
+        "Are you into security?"
+      ],
+      "responses": [
+        "امنیت سایبری و Network Security از زمینه‌های فعالیت و یادگیری محمدرضا هستند. جزئیات تخصص‌ها یا گواهینامه‌های امنیتی در اطلاعات فعلی ثبت نشده‌اند.",
+        "Cybersecurity and Network Security are areas Mohammadreza works and learns in. Specific security specializations or certifications have not been provided."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": [
+        "چه پروژه‌هایی داری؟",
+        "نمونه‌کارهات کجاست؟",
+        "پروژه منتشرشده داری؟",
+        "گیت‌هاب پروژه‌هات رو بده",
+        "پروژه‌هات رو نشون بده",
+        "نمونه کار داری؟",
+        "کارهای قبلیت رو ببینم",
+        "گیت‌هاب داری؟",
+        "تا حالا چی ساختی؟",
+        "Do you have any projects?",
+        "Where can I see your projects?",
+        "Have you published any projects?",
+        "Show me your projects",
+        "Do you have a GitHub?",
+        "What have you built?",
+        "Show me your work"
+      ],
+      "responses": [
+        "در اطلاعات فعلی، پروژه منتشرشده‌ای معرفی نشده است. سایت رزومه: https://mohammadreza08080-arch.github.io/MRX/",
+        "No published projects have been provided in the current information. Resume website: https://mohammadreza08080-arch.github.io/MRX/"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "چقدر سابقه کاری داری؟",
+        "چند سال فریلنسری کردی؟",
+        "تجربه کاری محمدرضا چقدره؟",
+        "سابقه کارت چقدره؟",
+        "چند ساله کار می‌کنی؟",
+        "فریلنسر هستی؟",
+        "چند سال تجربه داری؟",
+        "How much experience do you have?",
+        "How long have you worked as a freelancer?",
+        "How many years of experience do you have?",
+        "Are you a freelancer?",
+        "What is your work experience?",
+        "Years of experience?"
+      ],
+      "responses": [
+        "طبق اطلاعات ارائه‌شده، محمدرضا دو سال تجربه به‌صورت فریلنسری دارد. جزئیات پروژه‌ها یا مشتریان ارائه نشده است.",
+        "According to the provided information, Mohammadreza has two years of freelance experience. Details about projects or clients have not been provided."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "چه خدماتی ارائه می‌دی؟",
+        "چه کارهایی انجام می‌دی؟",
+        "چه پروژه‌هایی قبول می‌کنی؟",
+        "خدماتت چیه؟",
+        "می‌تونم بهت پروژه بدم؟",
+        "برای من کار می‌کنی؟",
+        "سفارش پروژه می‌پذیری؟",
+        "برای چه کارهایی میشه استخدامت کرد؟",
+        "What services do you offer?",
+        "What kind of projects can you work on?",
+        "Can I hire you?",
+        "Are you available for freelance work?",
+        "What can you do for me?",
+        "Do you take on client work?",
+        "What do you offer?"
+      ],
+      "responses": [
+        "زمینه‌های خدمات اعلام‌شده شامل ساخت مدل‌ها و راهکارهای LLM، پردازش زبان طبیعی (NLP)، تشخیص تصویر، یادگیری نظارت‌شده و یادگیری بدون نظارت است. محدوده هر پروژه باید جداگانه بررسی شود.",
+        "The listed service areas include LLM models and solutions, Natural Language Processing (NLP), image detection, supervised learning, and unsupervised learning. The scope of each project should be discussed separately."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "llm",
+      "patterns": [
+        "مدل LLM می‌سازی؟",
+        "در زمینه مدل‌های زبانی بزرگ کار می‌کنی؟",
+        "با LLM کار می‌کنی؟",
+        "می‌تونی مدل زبانی بسازی؟",
+        "ال ال ام بلدی؟",
+        "مدل زبانی بزرگ چی؟",
+        "Can you build LLM models?",
+        "Do you work with large language models?",
+        "Do you know LLMs?",
+        "Can you build an LLM-based app?",
+        "Do you build solutions with LLMs?"
+      ],
+      "responses": [
+        "ساخت مدل‌ها و راهکارهای مبتنی بر LLM از خدمات اعلام‌شده محمدرضا است. برای بررسی امکان انجام کار، جزئیات پروژه باید مشخص شود.",
+        "Building LLM models and LLM-based solutions is among Mohammadreza's listed services. Project details are needed to assess its scope."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "پروژه NLP انجام می‌دی؟",
+        "پردازش زبان طبیعی بلدی؟",
+        "چت‌بات NLP می‌سازی؟",
+        "NLP بلدی؟",
+        "چت‌بات می‌سازی؟",
+        "پروژه پردازش زبان طبیعی قبول می‌کنی؟",
+        "Can you build an NLP project?",
+        "Do you offer natural language processing?",
+        "Do you know NLP?",
+        "Can you build a chatbot?",
+        "Do you do text processing projects?"
+      ],
+      "responses": [
+        "پردازش زبان طبیعی (NLP) یکی از خدمات اعلام‌شده محمدرضا است.",
+        "Natural Language Processing (NLP) is one of Mohammadreza's listed services."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "image_detection",
+      "patterns": [
+        "تشخیص تصویر انجام می‌دی؟",
+        "مدل تشخیص اشیا می‌سازی؟",
+        "در زمینه بینایی ماشین کار می‌کنی؟",
+        "پردازش تصویر بلدی؟",
+        "بینایی کامپیوتر بلدی؟",
+        "با عکس کار می‌کنی؟",
+        "Can you build an image detection model?",
+        "Do you work on image detection?",
+        "Do you know computer vision?",
+        "Can you do object detection?",
+        "Can you work with images?"
+      ],
+      "responses": [
+        "ساخت راهکارهای تشخیص تصویر از خدمات اعلام‌شده محمدرضا است. نوع مسئله و نیازمندی‌های پروژه باید مشخص شود.",
+        "Image detection solutions are among Mohammadreza's listed services. The exact task and project requirements need to be specified."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "یادگیری ماشین انجام می‌دی؟",
+        "یادگیری نظارت‌شده بلدی؟",
+        "یادگیری بدون نظارت چطور؟",
+        "در یادگیری ماشین فعالیت داری؟",
+        "ماشین لرنینگ بلدی؟",
+        "مدل ML می‌سازی؟",
+        "Do you work with supervised learning?",
+        "Do you work with unsupervised learning?",
+        "Can you build a machine learning solution?",
+        "Do you know machine learning?",
+        "Can you train ML models?",
+        "Machine learning experience?"
+      ],
+      "responses": [
+        "یادگیری نظارت‌شده (Supervised Learning) و یادگیری بدون نظارت (Unsupervised Learning) در فهرست خدمات اعلام‌شده محمدرضا قرار دارند.",
+        "Supervised learning and unsupervised learning are included in Mohammadreza's listed service areas."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "کجا درس خواندی؟",
+        "تحصیلاتت چیست؟",
+        "چه دوره‌هایی گذراندی؟",
+        "مدرک تحصیلیت چیه؟",
+        "گواهینامه داری؟",
+        "گواهینامه‌هات چیه؟",
+        "مدارکت رو بگو",
+        "دانشگاه رفتی؟",
+        "تحصیلاتت چیه؟",
+        "What is your education?",
+        "Which courses have you completed?",
+        "My Credentials",
+        "Credentials",
+        "Certifications",
+        "Do you have any certificates?",
+        "Where did you study?",
+        "Do you have a degree?",
+        "What are your qualifications?"
+      ],
+      "responses": [
+        "اطلاعات تحصیلات، دوره‌ها و گواهینامه‌ها هنوز ارائه نشده است.",
+        "Education, course, and certification details have not been provided yet."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "چطور باهات ارتباط بگیرم؟",
+        "لینک سایتت چیه؟",
+        "آدرس رزومه‌ات چیست؟",
+        "ایمیلت چیه؟",
+        "چطور بهت پیام بدم؟",
+        "راه ارتباطی باهات چیه؟",
+        "رزومه‌ات رو کجا ببینم؟",
+        "How can I contact you?",
+        "What is your portfolio website?",
+        "Where can I find your resume?",
+        "What is your email?",
+        "How do I reach you?",
+        "Contact info"
+      ],
+      "responses": [
+        "راه ارتباطی دیگری مثل ایمیل هنوز ثبت نشده است. برای دیدن رزومه‌ی محمدرضا به این آدرس سر بزن: https://mohammadreza08080-arch.github.io/MRX/",
+        "No email address or other contact method has been provided yet. You can visit Mohammadreza's resume here: https://mohammadreza08080-arch.github.io/MRX/"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "خداحافظ",
+        "فعلاً",
+        "بعداً می‌بینمت",
+        "ممنون، خداحافظ",
+        "خدانگهدار",
+        "بای",
+        "شب بخیر",
+        "تا بعد",
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Bye bye",
+        "Good night",
+        "See you soon",
+        "I have to go",
+        "Catch you later"
+      ],
+      "responses": [
+        "خدانگهدار! ممنون از بازدیدت. روز خوبی داشته باشی.",
+        "Goodbye! Thanks for visiting. Have a great day."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "ممنون",
+        "متشکرم",
+        "خیلی لطف کردی",
+        "عالی بود",
+        "مرسی",
+        "ممنونم",
+        "سپاسگزارم",
+        "دمت گرم",
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks a lot",
+        "Great, thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "خواهش می‌کنم! خوشحالم که تونستم کمک کنم.",
+        "You're welcome! Glad I could help."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "why_no_answer",
+      "patterns": [
+        "چرا؟",
+        "چرا جواب نمی‌دی؟",
+        "چرا نمی‌تونی جواب بدی؟",
+        "دلیلش چیه؟",
+        "چرا جواب نداری؟",
+        "یعنی چی نمی‌دونی؟",
+        "چرا نمی‌دونی؟",
+        "دلیل جواب ندادنت چیه؟",
+        "Why?",
+        "Why not?",
+        "Why can't you answer?",
+        "What's the reason?",
+        "Why don't you know?",
+        "Why won't you answer?"
+      ],
+      "responses": [
+        "چون اطلاعات مربوط به این سؤال برای من تعریف نشده است. من فقط بر اساس اطلاعاتی جواب می‌دم که درباره‌ی محمدرضا به من داده شده و چیزی از خودم حدس نمی‌زنم.",
+        "دلیلش اینه که این موضوع در اطلاعات من وجود نداره. ترجیح می‌دم جواب ندم تا چیزی بگم که درست نباشه.",
+        "Because that information hasn't been defined for me. I only answer based on the details I've been given about Mohammadreza, and I don't guess.",
+        "The reason is that this topic isn't part of the information I have. I'd rather not answer than say something that might be wrong."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "هوا چطوره؟",
+        "امروز هوا چطوره؟",
+        "یه جوک بگو",
+        "ساعت چنده؟",
+        "قیمت دلار چنده؟",
+        "پایتخت فرانسه کجاست؟",
+        "یه فیلم پیشنهاد بده",
+        "یه شعر برام بنویس",
+        "دو بعلاوه دو چنده؟",
+        "آشپزی بلدی؟",
+        "نتیجه بازی فوتبال چی شد؟",
+        "معنی زندگی چیه؟",
+        "What's the weather today?",
+        "Tell me a joke",
+        "What time is it?",
+        "What is the capital of France?",
+        "Recommend a movie",
+        "Write me a poem",
+        "What is 2+2?",
+        "Who won the football match?",
+        "What is the meaning of life?",
+        "Can you cook?",
+        "asdfgh",
+        "blah blah",
+        "سنت چنده؟",
+        "چند سالته؟",
+        "کجا زندگی می‌کنی؟",
+        "متاهلی؟",
+        "حقوقت چقدره؟",
+        "قیمت پروژه چنده؟",
+        "هزینه کارت چقدره؟",
+        "سرگرمی‌هات چیه؟",
+        "غذای مورد علاقه‌ات چیه؟",
+        "How old are you?",
+        "Where do you live?",
+        "Are you married?",
+        "What is your salary?",
+        "How much do you charge?",
+        "What are your hobbies?",
+        "What is your favorite food?"
+      ],
+      "responses": [
+        "متأسفم، نمی‌تونم به این سؤال جواب بدم. می‌تونی درباره‌ی مهارت‌ها، تجربه، خدمات یا رزومه‌ی محمدرضا بپرسی.",
+        "ببخشید، پاسخ این سؤال رو نمی‌تونم بدم. اگه درباره‌ی مهارت‌ها، خدمات یا تجربه‌ی محمدرضا سؤالی داری، خوشحال می‌شم کمک کنم.",
+        "Sorry, I can't answer that question. You can ask about Mohammadreza's skills, experience, services, or resume.",
+        "I'm afraid I can't answer that one. Feel free to ask about Mohammadreza's skills, services, or experience."
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}

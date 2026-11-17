@@ -1,0 +1,110 @@
+:root {
+    --bg: #0B0B0E;
+    --panel: #16161C;
+    --hover: #23232C;
+    --line: #26262F;
+    --line-strong: #33333E;
+    --text: #F3F4F8;
+    --muted: #A8ADBB;
+    --accent: #4F46E5;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; height: 100vh; height: 100dvh; display: flex;
+    -webkit-text-size-adjust: 100%; -webkit-tap-highlight-color: transparent; flex-direction: column;
+    background: var(--bg); color: var(--text);
+    font-family: Inter, system-ui, sans-serif;
+  }
+  button { font-family: inherit; color: inherit; cursor: pointer; }
+
+  /* ---------- Header ---------- */
+  header {
+    height: 64px; flex: none; padding: 0 32px;
+    display: flex; align-items: center; justify-content: space-between;
+    background: var(--panel); border-bottom: 1px solid var(--line);
+  }
+  .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 17px; }
+  .logo { width: 32px; height: 32px; border-radius: 9px; background: var(--accent); display: grid; place-items: center; }
+  nav { display: flex; gap: 28px; }
+  nav a { color: var(--muted); text-decoration: none; font-size: 14px; font-weight: 500; }
+  nav a:hover { color: var(--text); }
+  .signin { border: 0; background: var(--text); color: var(--bg); border-radius: 10px; padding: 0 18px; min-height: 44px; font-weight: 600; font-size: 14px; }
+
+  /* ---------- Layout ---------- */
+  .layout { flex: 1; display: flex; min-height: 0; }
+  aside {
+    width: 280px; flex: none; padding: 20px 16px;
+    background: var(--panel); border-right: 1px solid var(--line);
+    display: flex; flex-direction: column; gap: 16px;
+  }
+  .new-chat { border: 0; background: var(--accent); color: #fff; border-radius: 12px; min-height: 48px; font-weight: 600; font-size: 14px; }
+  .side-title { font-size: 12px; font-weight: 600; color: #9AA0B0; letter-spacing: .06em; text-transform: uppercase; padding: 0 12px; }
+  .hist { display: block; width: 100%; text-align: left; border: 0; background: transparent; padding: 12px; border-radius: 10px; font-size: 14px; font-weight: 500; color: var(--muted); min-height: 44px; }
+  .hist:hover { background: var(--hover); }
+  .hist.active { background: var(--hover); color: var(--text); }
+
+  main { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  #messages { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 40px 24px; }
+  .inner { max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; gap: 24px; }
+  .hero { text-align: center; }
+  .hero h1 { margin: 0 0 8px; font-size: 32px; letter-spacing: -.02em; }
+  .hero p { margin: 0; color: var(--muted); font-size: 15px; }
+
+  /* ---------- Messages ---------- */
+  .row { display: flex; gap: 12px; align-items: flex-start; }
+  .row.user { justify-content: flex-end; }
+  .avatar { width: 36px; height: 36px; flex: none; border-radius: 10px; background: var(--accent); display: grid; place-items: center; }
+  .bubble { padding: 14px 18px; font-size: 15px; line-height: 1.55; max-width: min(560px, 85%); overflow-wrap: anywhere; white-space: pre-wrap; }
+  .bot .bubble { background: var(--panel); border: 1px solid var(--line); border-radius: 4px 16px 16px 16px; }
+  .user .bubble { background: var(--accent); color: #fff; border-radius: 16px 4px 16px 16px; }
+  .dots span { display: inline-block; width: 7px; height: 7px; margin-right: 4px; border-radius: 50%; background: var(--muted); animation: blink 1.2s infinite; }
+  .dots span:nth-child(2) { animation-delay: .2s; }
+  .dots span:nth-child(3) { animation-delay: .4s; }
+  @keyframes blink { 0%, 80%, 100% { opacity: .25; } 40% { opacity: 1; } }
+
+  .chips { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; }
+  .chip { border: 1px solid var(--line-strong); background: var(--panel); border-radius: 999px; padding: 10px 16px; font-size: 13px; font-weight: 500; min-height: 44px; }
+  .chip:hover { border-color: var(--accent); }
+
+  /* ---------- Input ---------- */
+  .composer { padding: 16px 24px 28px; }
+  .composer .inner { gap: 10px; }
+  form { display: flex; align-items: center; gap: 8px; background: var(--panel); border: 1px solid var(--line-strong); border-radius: 16px; padding: 8px 8px 8px 20px; }
+  form:focus-within { border-color: var(--accent); }
+  input { flex: 1; min-width: 0; min-height: 44px; border: 0; outline: 0; background: transparent; color: var(--text); font: 400 16px Inter, sans-serif; }  /* 16px stops iOS from zooming on focus */
+  .send { width: 44px; height: 44px; border: 0; border-radius: 12px; background: var(--accent); display: grid; place-items: center; }
+  .note { text-align: center; font-size: 12px; color: #9AA0B0; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+  /* ---------- Mobile ---------- */
+  .menu-btn { display: none; width: 44px; height: 44px; border: 1px solid var(--line-strong); background: transparent; border-radius: 10px; place-items: center; }
+  .overlay { display: none; }
+
+  @media (max-width: 820px) {
+    nav { display: none; }
+    .menu-btn { display: grid; }
+    header { padding: 0 12px; padding-top: env(safe-area-inset-top); height: calc(64px + env(safe-area-inset-top)); }
+    .brand { gap: 8px; }
+    .brand span { font-size: 15px; }
+    .signin { padding: 0 14px; }
+
+    /* sidebar becomes a slide-in drawer */
+    aside {
+      position: fixed; top: 0; left: 0; bottom: 0; z-index: 20;
+      width: min(300px, 85vw);
+      padding-top: calc(20px + env(safe-area-inset-top));
+      transform: translateX(-100%); transition: transform .25s ease;
+    }
+    body.menu-open aside { transform: none; }
+    body.menu-open .overlay { display: block; position: fixed; inset: 0; z-index: 10; background: rgba(0, 0, 0, .6); }
+
+    #messages { padding: 24px 16px; }
+    .inner { gap: 20px; }
+    .hero h1 { font-size: 24px; }
+    .composer { padding: 12px 16px calc(16px + env(safe-area-inset-bottom)); }
+    .chip { flex: 1 1 auto; text-align: center; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    aside { transition: none; }
+    .dots span { animation: none; opacity: 1; }
+  }

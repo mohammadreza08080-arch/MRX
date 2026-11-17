@@ -1,0 +1,22 @@
+# Python virtual environment (never commit this)
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets (tokens, keys)
+.env
+*.key
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+.ipynb_checkpoints/
