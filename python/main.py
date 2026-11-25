@@ -7,7 +7,7 @@ from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 
-from .chatbot import get_reply
+from chatbot import get_reply
 
 # aboutme/ folder (the parent of the "python" folder)
 SITE_DIR = Path(__file__).resolve().parent.parent
